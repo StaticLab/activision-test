@@ -1,0 +1,42 @@
+// breakpoints
+$mobile: 640px;
+$tablet: 768px;
+$desktop: 1200px;
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  max-width: 100%;
+}
+
+.image {
+  background: url(../images/hero_img_mobile.jpg) no-repeat top center ;
+  background-size: cover;
+
+  // mobile landscape
+  @media screen and (orientation: landscape) {
+    background: url(../images/hero_img_desktop.jpg) no-repeat top center;
+    background-size: 100% auto;
+  }
+
+  // tablet
+  @media screen and (min-width: $tablet) {
+    background: url(../images/hero_img_mobile.jpg) no-repeat top center;
+    background-size: cover;
+  }
+
+  // tablet landscape
+  @media screen and (min-width: $tablet) and (orientation: landscape) {
+    background: url(../images/hero_img_desktop.jpg) no-repeat top center;
+    background-size: 100% auto;
+  }
+
+  // desktop
+  @media screen and (min-width: $desktop) and (orientation: landscape) {
+    background: url(../images/hero_img_desktop.jpg) no-repeat top center;
+    background-size: 100% auto;
+  }
+}
