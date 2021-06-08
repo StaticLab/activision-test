@@ -15,7 +15,7 @@
 @media screen and (orientation: landscape) {
   .image {
     background: url(../images/hero_img_desktop.jpg) no-repeat top center;
-    background-size: 100% auto;
+    background-size: cover;
   }
 }
 @media screen and (min-width: 768px) {
@@ -27,13 +27,13 @@
 @media screen and (min-width: 768px) and (orientation: landscape) {
   .image {
     background: url(../images/hero_img_desktop.jpg) no-repeat top center;
-    background-size: 100% auto;
+    background-size: cover;
   }
 }
 @media screen and (min-width: 1200px) and (orientation: landscape) {
   .image {
     background: url(../images/hero_img_desktop.jpg) no-repeat top center;
-    background-size: 100% auto;
+    background-size: cover;
   }
 }
 
@@ -157,7 +157,7 @@ body {
     font-size: 2em;
     letter-spacing: 1.4px;
     text-align: center;
-    margin-top: 1em;
+    margin-top: 4em;
   }
 }
 

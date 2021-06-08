@@ -19,7 +19,8 @@ $desktop: 1200px;
   // mobile landscape
   @media screen and (orientation: landscape) {
     background: url(../images/hero_img_desktop.jpg) no-repeat top center;
-    background-size: 100% auto;
+    //background-size: 100% auto;
+    background-size: cover;
   }
 
   // tablet
@@ -31,12 +32,14 @@ $desktop: 1200px;
   // tablet landscape
   @media screen and (min-width: $tablet) and (orientation: landscape) {
     background: url(../images/hero_img_desktop.jpg) no-repeat top center;
-    background-size: 100% auto;
+    //background-size: 100% auto;
+    background-size: cover;
   }
 
   // desktop
   @media screen and (min-width: $desktop) and (orientation: landscape) {
     background: url(../images/hero_img_desktop.jpg) no-repeat top center;
-    background-size: 100% auto;
+    //background-size: 100% auto;
+    background-size: cover;
   }
 }
