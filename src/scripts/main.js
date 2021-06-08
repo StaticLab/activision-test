@@ -1,8 +1,8 @@
 // elements
 const button = document.querySelector('button');
 const modal = document.getElementById('modal');
-const modalBg = document.getElementById('modal-bg');
-const closeBtn = document.getElementById('close');
+// const modalBg = document.getElementById('modal-bg');
+const closeBtn = document.getElementById('closeBtn');
 
 function init() {
     addListeners();
@@ -10,13 +10,13 @@ function init() {
 
 function addListeners() {
     button.addEventListener('click', showVideo);
-    modalBg.addEventListener('click', killVideo);
+    // modalBg.addEventListener('click', killVideo);
     closeBtn.addEventListener('click', killVideo);
 }
 
 function toggleModal(event) {
     modal.classList.toggle('closed');
-    modalBg.classList.toggle('closed');
+    // modalBg.classList.toggle('closed');
 }
 
 function showVideo(event) {

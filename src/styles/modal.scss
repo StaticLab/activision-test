@@ -22,30 +22,58 @@
 }
 
 /** CLOSE BUTTON **/
-.close {
+.closeBtn {
   position: absolute;
-  top: -30px;
-  right: -30px;
-  width: 20px;
-  height: 20px;
-  opacity: 0.6;
+  top: -40px;
+  right: -40px;
+  width: 40px;
+  height: 40px;
+  opacity: 0.8;
   cursor: pointer;
   z-index: 1010;
-}
-.close:hover {
-  opacity: 1;
-}
-.close:before, .close:after {
-  position: absolute;
-  left: 15px;
-  content: ' ';
-  height: 33px;
-  width: 2px;
-  background-color: #fff;
-}
-.close:before {
-  transform: rotate(45deg);
-}
-.close:after {
-  transform: rotate(-45deg);
-}
+
+  &:hover {
+    opacity: 1;
+  }
+ }
+
+
+//.close {
+//  position: absolute;
+//  top: 20px;
+//  left: 20px;
+//  width: 40px;
+//  height: 40px;
+//  opacity: 1;
+//  cursor: pointer;
+//  z-index: 1012;
+//
+//  &:hover {
+//    opacity: 1;
+//  }
+//}
+//
+//.close:before, .close:after {
+//  //position: absolute;
+//  left: 15px;
+//  content: ' ';
+//  height: 33px;
+//  width: 2px;
+//  background-color: #fff;
+//}
+//
+//.close:before {
+//  transform: rotate(45deg);
+//}
+//
+//.close:after {
+//  transform: rotate(-45deg);
+//}
+//
+//.closeBg {
+//  position: absolute;
+//  width: 40px;
+//  height: 40px;
+//  background: #000;
+//  z-index: 1010;
+//}
